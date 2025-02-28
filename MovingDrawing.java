@@ -9,7 +9,7 @@ public class MovingDrawing extends JFrame implements KeyListener {
   private final ImagePanel imagePanel;
   public MovingDrawing() {
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    imagePanel = new ImagePanel("Graphic.png");
+    imagePanel = new ImagePanel("Rectangle.png");
     getContentPane().add(imagePanel);
     setSize(500, 300);
     addKeyListener(this);
